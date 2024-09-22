@@ -1,0 +1,78 @@
+body {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+}
+
+#json-content {
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#json-content .key {
+    color: #9cdcfe;
+}
+
+#json-content .string {
+    color: #ce9178;
+}
+
+#json-content .number {
+    color: #b5cea8;
+}
+
+#json-content .boolean {
+    color: #569cd6;
+}
+
+#json-content .null {
+    color: #569cd6;
+}
+
+a {
+    color: #4ec9b0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* New colorful styles */
+.json-key {
+    color: #9cdcfe;
+}
+
+.json-string {
+    color: #ce9178;
+}
+
+.json-number {
+    color: #b5cea8;
+}
+
+.json-boolean {
+    color: #569cd6;
+}
+
+.json-null {
+    color: #569cd6;
+}
+
+.json-bracket {
+    color: #d4d4d4;
+}
+
+.json-colon {
+    color: #d4d4d4;
+}
+
+.json-comma {
+    color: #d4d4d4;
+}
